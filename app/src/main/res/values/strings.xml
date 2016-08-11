@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MessageTwo</string>
+
+
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Friends</string>
+
+
+    <string name="userName">Username</string>
+    <string name="user_Hint">Username</string>
+    <string name="password">Password</string>
+    <string name="password_Hint">Password</string>
+    <string name="buttonLog">Login</string>
+    <string name="buttonReg">Register</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email_hint">Email</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="signup_error_message">Please enter a username, password it looks like you forgot</string>
+    <string name="sign_up_error_title">Missed Something?</string>
+    <string name="login_error_message">Please enter a username, password it looks like you forgot</string>
+    <string name="login_error_title">Missed Something?</string>
+    <string name="menu_logout_label">Logout</string>
+    <string name="empty_inbox_label">No new messages</string>
+    <string name="empty_friends_label">You need to get yourself some friends</string>
+    <string name="menu_edit_friends_label">Edit Friends</string>
+    <string name="title_activity_edit_friends">Edit Friends</string>
+    <string name="error_title">Sorry Our Bad </string>
+    <string name="menu_camera_label">Camera</string>
+    <string name="error_external_storage">There was a problem accessing your device\'s external storage</string>
+    <string-array name="camera_Choices">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>Choose Picture</item>
+        <item>Choose Video</item>
+    </string-array>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="general_error">Sorry, something went wrong </string>
+    <string name="video_size_warrning">The Video must be less than 10MB</string>
+    <string name="video_file_size_warrning">The selected Video must be less than 10MB</string>
+    <string name="error_opening_file">There was a problem with the selected file</string>
+    <string name="error_file_size_too_large">The selected file is to large, Please select a new file</string>
+    <string name="title_activity_recipients">"Choose Recipients "</string>
+    <string name="choose_some_friends_first_">Choose some friends first</string>
+    <string name="menu_send_label">Send</string>
+   <string name="error_selecting_file">The selected file is not working, please use a different one</string>
+   <string name="error_selecting_file_title">Sorry Bro</string>
+    <string name="success_message">message sent</string>
+    <string name="error_sending_message">There was an error sending your message. Please try again </string>
+    <string name="title_activity_view_image">Message2</string>
+
+</resources>

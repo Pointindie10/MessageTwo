@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@color/holo_blue_dark">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/tv_Heading"
+            android:text="Message2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+        <EditText
+            android:layout_below="@+id/tv_Heading"
+            android:layout_marginTop="50dp"
+            android:id="@+id/userHint"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="@drawable/et_bg"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:ellipsize="end" />
+
+
+        <EditText
+            android:id="@+id/passwordHint"
+            android:layout_below="@+id/userHint"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="@drawable/et_bg"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:ellipsize="end" />
+
+
+        <com.andexert.library.RippleView
+            android:id="@+id/buttonLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/passwordHint"
+            android:background="@color/white"
+            ripple:rv_color="@color/action_bar_color"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LOGIN"
+                android:textSize="15sp"
+                android:textColor="@color/holo_blue_dark" />
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:id="@+id/rv_Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_below="@+id/buttonLog"
+            android:background="@color/white"
+            ripple:rv_color="@color/action_bar_color"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+
+            <TextView
+                android:id="@+id/buttonReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SIGNUP"
+                android:textSize="15sp"
+                android:textColor="@color/holo_blue_dark" />
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
